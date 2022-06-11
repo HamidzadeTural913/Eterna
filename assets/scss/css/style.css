@@ -192,28 +192,11 @@ main #cards .container .row .box .basket:hover .icon {
           box-shadow: rgba(240, 46, 170, 0.4) -5px 5px, rgba(240, 46, 170, 0.3) -10px 10px, rgba(240, 46, 170, 0.2) -15px 15px, rgba(240, 46, 170, 0.1) -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px;
 }
 
-main #structur {
-  width: 100%;
-  height: 100px;
-  margin-top: 100px;
+main #description .container .row .progress-bar .write {
+  padding: 0 50px;
 }
 
-main #structur .write {
-  text-align: center;
-}
-
-main #structur .line {
-  width: 50px;
-  height: 5px;
-  background-color: #E96B56;
-}
-
-main #structur .row .images img {
-  width: 600px;
-  height: 400px;
-}
-
-main #structur .row .programming {
+main #description .container .row .progress-bar .programming {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -222,7 +205,192 @@ main #structur .row .programming {
           justify-content: space-between;
 }
 
-main #structur .row .progress {
-  margin-bottom: 40px;
+main main #cards .container .row .box {
+  width: 400px;
+  height: 350px;
+  border: solid 1px #8f8b8b;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+main main #cards .container .row .box:hover {
+  background-color: #E96B56;
+}
+
+main main #cards .container .row .box:hover .basket .icon {
+  background-color: white;
+}
+
+main main #cards .container .row .box:hover .basket .icon i {
+  color: #E96B56;
+}
+
+main main #cards .container .row .box:hover .basket .title h2 {
+  color: white;
+}
+
+main main #cards .container .row .box:hover .basket .text p {
+  color: white;
+}
+
+main main #cards .container .row .box .basket {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main main #cards .container .row .box .basket .icon {
+  -webkit-box-shadow: rgba(240, 46, 170, 0.4) -5px 5px, rgba(240, 46, 170, 0.3) -10px 10px, rgba(240, 46, 170, 0.2) -15px 15px, rgba(240, 46, 170, 0.1) -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px;
+          box-shadow: rgba(240, 46, 170, 0.4) -5px 5px, rgba(240, 46, 170, 0.3) -10px 10px, rgba(240, 46, 170, 0.2) -15px 15px, rgba(240, 46, 170, 0.1) -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 70px;
+  height: 70px;
+  background-color: #E96B56;
+  border-radius: 8px;
+}
+
+main main #cards .container .row .box .basket .icon i {
+  font-size: 25px;
+  color: white;
+  -webkit-box-shadow: 0 0 black;
+          box-shadow: 0 0 black;
+}
+
+main main #cards .container .row .box .basket .text p {
+  text-align: center;
+}
+
+main #skills .container .row .our {
+  text-align: center;
+}
+
+main #skills .container .row .our hr {
+  width: 50px;
+  height: 4px;
+  color: #E96B56;
+}
+
+main #progres-bar .images img {
+  width: 647px;
+  height: 500px;
+}
+
+main #progres-bar .title h2 {
+  color: #545454;
+}
+
+main #progres-bar .progress {
+  margin: 50px 0 0 0;
+}
+
+main #progres-bar span {
+  font-size: 15px;
+  font-weight: bold;
+}
+
+main #newsletter {
+  margin-top: 70px;
+  width: 100%;
+  height: 250px;
+  background-color: #404040;
+}
+
+main #newsletter .container .row .email .title {
+  font-size: 15px;
+  color: white;
+}
+
+main #newsletter .container .row .email .title h2 {
+  font-size: 22px;
+}
+
+main #newsletter .container .row .email .search form {
+  position: relative;
+}
+
+main #newsletter .container .row .email .search form input {
+  margin-top: 10px;
+  width: 600px;
+  border-radius: 15px;
+  border: none;
+  margin-right: 100px;
+  height: 40px;
+}
+
+main #newsletter .container .row .email .search form button {
+  position: absolute;
+  top: 11px;
+  right: 102px;
+  width: 132px;
+  border-radius: 15px;
+}
+
+main footer #last {
+  width: 100%;
+  height: 300px;
+  background-color: #3B3B3B;
+}
+
+main footer #last .container .row h4 {
+  color: white;
+  font-size: 19px;
+  margin-left: 12px;
+}
+
+main footer #last .container .row p {
+  color: white;
+}
+
+main footer #last .container .row ul li {
+  font-size: 15px;
+  list-style: none;
+  color: white;
+  margin: 15px 0 0 0;
+  -webkit-transition: .1s;
+  transition: .1s;
+  cursor: pointer;
+}
+
+main footer #last .container .row ul li:hover {
+  color: #E96B56;
+}
+
+main footer #last .container .row ul li i {
+  color: #E96B56;
+}
+
+main footer #last .container .row ul li i {
+  margin-right: 10px;
+}
+
+main footer #last .container .row .social ul li {
+  margin: 0 0 0 10px;
+  font-size: 30px;
+}
+
+main footer #last .container .row .social ul li i {
+  color: white;
+  -webkit-transition: .1s;
+  transition: .1s;
+  margin-right: 20px;
+}
+
+main footer #last .container .row .social ul li i:hover {
+  color: #E96B56;
 }
 /*# sourceMappingURL=style.css.map */
